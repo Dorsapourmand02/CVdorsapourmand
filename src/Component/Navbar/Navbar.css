@@ -6,8 +6,11 @@ nav{
     height: 10vh;
     /* text-transform: capitalize;  */
     border-bottom: 1px solid rgba(181, 180, 180, 0.401);
+    color: white;
 
 }
+
+  
 
 .nav-part ul{
     list-style: none;
@@ -23,11 +26,14 @@ nav{
 
 .nav-part ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
+
 
 }
 
 .nav-title h4{
     font-size: 20px;
-    text-transform:capitalize; 
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
