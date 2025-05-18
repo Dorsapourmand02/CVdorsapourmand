@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    /* text-transform: capitalize;  */
+    border-bottom: 1px solid rgba(181, 180, 180, 0.401);
+
+}
+
+.nav-part ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.nav-part ul li{
+    margin: 10px;
+}
+
+.nav-part ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-title h4{
+    font-size: 20px;
+    text-transform:capitalize; 
+}
