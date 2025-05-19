@@ -1,0 +1,75 @@
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* margin-top: 60px; */
+  height: 650px;
+  text-align: center;
+  align-items: center;
+}
+
+.skill-title {
+  /* background-color: transparent; */
+  color: beige;
+}
+
+.skill-name {
+  font-size: 100px;
+  rotate: 270deg;
+  color: black;
+  /* padding: 30px; */
+}
+
+.row-1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* margin: 10px; */
+
+}
+
+.row-2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.skill{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.skill:hover{
+  transition:0.5s;
+  box-shadow: 0px -12px 52px 0px rgba(0,0,0,0.1);
+  transform: scale(1.1);
+}
+
+.skills-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-right: 70px;
+}
+
+.skill img {
+  width:40px;
+}
+
+.skillname p{
+  font-size: 18px;
+  font-family: "Jua", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-style: normal;
+}

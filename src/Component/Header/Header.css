@@ -2,8 +2,8 @@
     color: white;
     display: flex;
     justify-content: flex-start;
-    margin-left: 40px;
-    margin-top: 30px;
+    background-color: black;
+    width: 100%;
 
 }
 
@@ -14,6 +14,10 @@
     font-weight: 400;
     font-style: normal;
     width: 80vh;
+    height: 50vh;
+    margin-top: 70px;
+    padding: 50px;
+    margin-left: 30px;
     /* background-color: aqua; */
 
 }
@@ -42,4 +46,20 @@
     color: white;
     border: 1px solid white !important;
     margin-left: 10px;
+    background-color: black;
+}
+
+.contact-btn:hover{
+    color: white;
+    border: 1px solid white !important;
+    background-color: black;
+    transition: 0.4s;
+    /* margin-left: 10px; */
+}
+
+.cv-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+
 }
