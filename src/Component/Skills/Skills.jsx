@@ -8,10 +8,32 @@ import PHPLOGO from "../../images/phplogo.png"
 import GITLOGO from "../../images/gitlogo.webp"
 import WPLOGO from "../../images/wplogo.png"
 import BSLOGO from "../../images/bootstraplogo.png"
-import FIGMALOGO from "../../images/figmalogo.svg"
+import SQL from "../../images/Mysqllogo.png"
 import LINUXLOGO from "../../images/linuxlogo.png"
 
 function Skills() {
+
+  const skills = [
+    {name:"HTML" , logo: HTMLLOGO},
+    {name:"CSS" , logo: CSSLOGO},
+    {name:"JavaScript" , logo:JSLOGO},
+    {name:"React" , logo:REACTLOGO},
+    {name:"PHP" , logo:PHPLOGO},
+
+  ]
+
+  const skills2 = [
+    {name:"Git" , logo:GITLOGO},
+    {name:"Mysql" , logo:SQL},
+    // {name:"Mysql" , logo:SQL},
+    {name:"BootStrap" , logo:BSLOGO},
+    {name:"WordPress" , logo:WPLOGO},
+    {name:"Linux" , logo:LINUXLOGO},
+
+
+    
+  ]
+
   return (
     <div className="skill-container">
       <div className="skill-title">
@@ -19,68 +41,24 @@ function Skills() {
       </div>
       <div className="skills-item">
         <div className="row-1">
-          <div className="skill">
-            <img src={HTMLLOGO} />
-            <div className="skillname">
-              <p>HTML</p>
+          {skills.map((skill,index) => (
+            <div className="skill" key={index}>
+              <img src={skill.logo} alt={skill.name} />
+              <div className="skillname">
+                <p>{skill.name}</p>
+              </div>
             </div>
-          </div>
-          <div className="skill">
-            <img src={CSSLOGO} />
-            <div className="skillname">
-              <p>CSS</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={JSLOGO} />
-            <div className="skillname">
-              <p>JavaScript</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={REACTLOGO} />
-            <div className="skillname">
-              <p>React</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={PHPLOGO} />
-            <div className="skillname">
-              <p>PHP</p>
-            </div>
-          </div>
+          ))}
         </div>
         <div className="row-2">
-          <div className="skill">
-            <img src={GITLOGO} />
-            <div className="skillname">
-              <p>Git</p>
+        {skills2.map((skill,index) => (
+            <div className="skill" key={index}>
+              <img src={skill.logo} alt={skill.name} />
+              <div className="skillname">
+                <p>{skill.name}</p>
+              </div>
             </div>
-          </div>
-          <div className="skill">
-            <img src={BSLOGO} />
-            <div className="skillname">
-              <p>BootStrap</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={WPLOGO} />
-            <div className="skillname">
-              <p>Wordpress</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={FIGMALOGO} />
-            <div className="skillname">
-              <p>Figma</p>
-            </div>
-          </div>
-          <div className="skill">
-            <img src={LINUXLOGO} />
-            <div className="skillname">
-              <p>Linux</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
