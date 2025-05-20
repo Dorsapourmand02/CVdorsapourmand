@@ -6,6 +6,7 @@ import Navbar from './Component/Navbar/Navbar'
 import Header from './Component/Header/Header'
 import Skills from './Component/Skills/Skills'
 import Education from './Component/Education/Education'
+import Experience from './Component/Experience/Experience'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Skills />
       <Education />
+      <Experience />
     </>
   )
 }
