@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Component/Navbar/Navbar'
 import Header from './Component/Header/Header'
 import Skills from './Component/Skills/Skills'
+import Education from './Component/Education/Education'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Header />
       <Skills />
+      <Education />
     </>
   )
 }
