@@ -30,7 +30,7 @@ function Projects() {
             <h4>{projects[0].title}</h4>
             <p>{projects[0].description}</p>
             <a href={projects[0].links}>
-              <p>Project Github link</p>
+              <p>Github link</p>
             </a>
           </SwiperSlide>
           <SwiperSlide>Slide 2</SwiperSlide>
