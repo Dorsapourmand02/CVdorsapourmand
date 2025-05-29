@@ -54,6 +54,9 @@
   cursor: pointer;
 }
 
-textarea{
-    resize: none; 
+
+input::placeholder,
+textarea::placeholder {
+  color: #c8c7c7; /* Choose your desired color */
+  opacity: 1;  /* Optional: makes the color fully visible */
 }
