@@ -9,6 +9,7 @@ import Education from './Component/Education/Education'
 import Experience from './Component/Experience/Experience'
 import Projects from './Component/Projects/Projects'
 import Footer from './Component/Footer/Footer'
+import Form from './Component/Form/Form'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+      <Form />
       <Footer />
     </>
   )
