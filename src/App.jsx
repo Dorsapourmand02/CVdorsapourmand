@@ -10,7 +10,7 @@ import Experience from './Component/Experience/Experience'
 import Projects from './Component/Projects/Projects'
 import Footer from './Component/Footer/Footer'
 import Form from './Component/Form/Form'
-
+import './Responsive.css'
 
 function App() {
   const [count, setCount] = useState(0)

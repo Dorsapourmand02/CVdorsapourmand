@@ -15,16 +15,19 @@
     font-style: normal;
     width: 80vh;
     height: 50vh;
-    margin-top: 70px;
-    padding: 50px;
-    margin-left: 30px;
-    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 40px;
 
 }
 
 .header-title p{
     font-size: 20px;
     font-weight: 100 !important;
+
 }
 
 

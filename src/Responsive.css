@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  nav {
+    width: 768px !important;
+  }
+  .intro{
+    font-size: 24px;
+  }
+
+  .header-title p{
+    font-size: 15px;
+  }
+
+  .skill-name {
+    rotate: 0deg;
+    font-size: 24px;
+  }
+  .skill-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .skills-item {
+    margin-right: 0px;
+  }
+
+  .dot {
+    width: 20px;
+    height: 20px;
+  }
+  .line {
+    width: 100px;
+  }
+
+  .preview-box p {
+    font-size: 16px;
+  }
+  .grad-cards{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .grad-card{
+    width:400px;
+  }
+}

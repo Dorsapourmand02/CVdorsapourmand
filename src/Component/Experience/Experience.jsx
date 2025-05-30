@@ -31,7 +31,7 @@ function Experience() {
       </div>
 
       <div className="preview-box" id="previewBox">
-        {previewText}
+        <p>{previewText}</p>
       </div>
     </div>
   );
