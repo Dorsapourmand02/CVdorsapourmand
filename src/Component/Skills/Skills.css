@@ -6,6 +6,7 @@
   height: 650px;
   text-align: center;
   align-items: center;
+  
 }
 
 .skill-title {
@@ -74,4 +75,8 @@
   font-weight: 300;
   text-align: center;
   font-style: normal;
+}
+
+.skill-responsive{
+  display: none;
 }

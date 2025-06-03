@@ -1,12 +1,22 @@
 @media (max-width: 768px) {
   nav {
-    width: 768px !important;
+    width: 100% !important;
   }
-  .intro{
+
+  .nav-title,
+  .nav-part {
+    display: none;
+  }
+
+  .header-container {
+    width: 100% !important;
+  }
+
+  .intro {
     font-size: 24px;
   }
 
-  .header-title p{
+  .header-title p {
     font-size: 15px;
   }
 
@@ -14,34 +24,141 @@
     rotate: 0deg;
     font-size: 24px;
   }
+
   .skill-container {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 30px;
+    display: none;
   }
 
-  .skills-item {
-    margin-right: 0px;
+  .skill-responsive {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .myskill-swiper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .skills-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: transparent;
+    margin-right: 0;
+  }
+
+  .skill-swip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .skills-img {
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .skills-title p {
+    white-space: nowrap;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: rgb(200, 200, 200);
+  }
+
+  .swiper-button-next {
+    width: 10%;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .grad-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .grad-card {
+    width: 300px;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    margin-top: 40px;
+  }
+
+  .timeline-shape {
+    flex-direction: column;
+    margin-top: 20px;
   }
 
   .dot {
     width: 20px;
     height: 20px;
   }
+
   .line {
-    width: 100px;
+    flex-direction: column;
+    width: 80px;
+    rotate: 90deg;
+    margin: 38px;
   }
 
-  .preview-box p {
-    font-size: 16px;
+  .project-container {
+    flex-direction: column-reverse;
   }
-  .grad-cards{
+
+  .project-title h2 {
+    font-size: 24px;
+  }
+
+  .myproject-swiper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer-container {
     flex-direction: column;
-    gap: 15px;
   }
-  .grad-card{
-    width:400px;
+
+  .footer-title h3 {
+    font-size: 18px;
+  }
+  .myproject-slide h4{
+    font-size: 18px;
+  }
+  .myproject-slide p{
+    font-size: 12px;
   }
 }

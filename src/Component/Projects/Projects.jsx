@@ -24,17 +24,18 @@ function Projects() {
           effect={"cards"}
           grabCursor={true}
           modules={[EffectCards]}
-          className="mySwiper"
+          className="myproject-swiper"
+          
         >
-          <SwiperSlide>
+          <SwiperSlide className="myproject-slide">
             <h4>{projects[0].title}</h4>
             <p>{projects[0].description}</p>
             <a href={projects[0].links}>
               <p>Github link</p>
             </a>
           </SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide className="myproject-slide">Slide 2</SwiperSlide>
+          <SwiperSlide className="myproject-slide">Slide 3</SwiperSlide>
         </Swiper>
       </div>
 
