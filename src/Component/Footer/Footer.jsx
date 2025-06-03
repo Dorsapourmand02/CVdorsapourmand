@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="footer-icons">
           <div className="linkedin">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/dorsa-pourmand-a4ab0a241" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -23,8 +23,8 @@ function Footer() {
               </svg>
             </a>
           </div>
-          <div className="telegram">
-            <a href="#">
+          <div className="telegram" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/@Dorsapourmand">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -37,8 +37,8 @@ function Footer() {
               </svg>
             </a>
           </div>
-          <div className="github">
-            <a href="#">
+          <div className="github" >
+            <a href="https://github.com/Dorsapourmand02">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -51,8 +51,8 @@ function Footer() {
               </svg>
             </a>
           </div>
-          <div className="mail">
-            <a href="#">
+          <div className="mail" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:d.pourmand2002@gmail.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
