@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-app
+    image: doriapp:latest
+    restart: always
+    ports:
+      - "127.0.0.1:3554:80"  # host:container
