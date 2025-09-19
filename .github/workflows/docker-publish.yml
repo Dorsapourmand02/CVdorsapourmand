@@ -1,4 +1,4 @@
-nAME: Build and Publish React App Docker Image
+name: Build and Publish React App Docker Image
 
 on:
   push:
