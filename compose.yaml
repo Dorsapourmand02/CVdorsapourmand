@@ -10,13 +10,5 @@ services:
     restart: always
     ports:
       - "127.0.0.1:3554:80"  # host:container
-  watchtower:
-    image: containrrr/watchtower
-    container_name: watchtower
-    restart: unless-stopped
-      #    env_file:
-      # - .env
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /home/amir/dorsaconfig/config.json:/config.json
-    command: --label-enable --cleanup --interval 60
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
