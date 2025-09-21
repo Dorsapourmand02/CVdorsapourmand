@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className='navbar'>
         <div className="nav-title">
-            <h4>DORSA POURMAND</h4>
+            <h4>Database Administrator(DBA)</h4>
         </div>
         <div className="nav-part">
             <ul>

@@ -11,9 +11,7 @@ function Header() {
           <h2>Dorsa Pourmand</h2>
         </div>
         <p>
-          I'm Frontend developer skilled in HTML, CSS, Wordpress, JavaScript,
-          and React. Currently expanding my backend skills using PHP. Open to
-          collaboration and freelance opportunities.
+        I'm Database Administrator (DBA) in progress. I design, manage, and optimize databases to ensure performance, security, and reliability. With SQL expertise and a strong foundation in Linux, I’m building solutions for real-world data challenges.
         </p>
 
         <div className="header-btn">

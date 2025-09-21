@@ -6,8 +6,8 @@ function Experience() {
 
   const timelines = [
     { text: "Academy of Architecture (2021–2025) – Website Admin" },
-    { text: "Sanasystem PIDMCO (2025–  ) – Website Admin , Software support" },
-    { text: "Sanasystem Persian Gulf Bidboland Gas Refining Company (2025–  ) – Software support" },
+    { text: "Sanasystem PIDMCO (2025 Jan–2025 Oct) – Website Admin , Software support" },
+    { text: "Sanasystem Persian Gulf Bidboland Gas Refining Company (2025 Jan–2025 Oct) – Software support" },
     { text: "More experiences coming soon..." }
   ];
 
