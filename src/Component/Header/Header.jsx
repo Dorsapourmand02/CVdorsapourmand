@@ -18,7 +18,7 @@ function Header() {
           <a href="#">
             <button className="contact-btn">Contact Me</button>
           </a>
-          <a href="../../public/cv_file/cv.pdf" download>
+          <a href="../public/cv_file/cv.pdf" download>
             <button className="cv-btn">Download CV</button>
           </a>
         </div>
