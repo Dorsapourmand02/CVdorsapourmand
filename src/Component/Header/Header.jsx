@@ -11,7 +11,7 @@ function Header() {
           <h2>Dorsa Pourmand</h2>
         </div>
         <p>
-        I'm Database Administrator (DBA) in progress. I design, manage, and optimize databases to ensure performance, security, and reliability. With SQL expertise and a strong foundation in Linux, I’m building solutions for real-world data challenges.
+        I'm Database Administrator. I design, manage, and optimize databases to ensure performance, security, and reliability. With a solid foundation in SQL, Linux, and database systems — and hands-on knowledge of frontend development (React, HTML, CSS, JavaScript) — I bridge the gap between data infrastructure and user-facing applications.
         </p>
 
         <div className="header-btn">
